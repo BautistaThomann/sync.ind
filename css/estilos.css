@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    color: #212529;
+}
+
+.logo{
+    width: 6.7rem;
+}
+
+.navbar-nav .nav-link{
+    color: #212529;
+    padding: 0 !important;
+}
+
+.navbar-nav{
+    margin-left: 67rem;
+}
+
+.navbar-nav span{
+    padding: 0 9px 0 5px;
+}
