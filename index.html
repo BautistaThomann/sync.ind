@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./img/logo-sync.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/estilos.css">
     <title>SYNC.IND</title>
 </head>
@@ -26,30 +28,101 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link" href="#">New in <span>|</span></a>
-                        <a class="nav-link" href="#">Productos</a>
+                        <a class="nav-link" href="#new-in">New in<span>|</span></a>
+                        <a class="nav-link" href="./html/productos.html">Productos</a>
                     </div>
                 </div>
             </div>
         </nav>
+        <div class="texto-deslizante">
+            <div class="texto-track" id="track"></div>
+        </div>
     </header>
     <main>
         <div class="cont-banner">
-            <img src="" alt="">
+            <img src="./img/Gemini_Generated_Image_if09ruif09ruif09.png" alt="">
         </div>
 
-        <div class="cont-h1">
-            <h1>NEW IN- SYNC</h1>
+        <div class="cont-h1" id="new-in">
+            <h1>NEW IN - SYNC</h1>
         </div>
+
+        <div class="cont-productos-new">
+            <div class="prod">
+                <div class="img-container">
+                    <img src="./img/hoodie-argentina-aniversario-negro-espalda.webp" alt="hoodie-argentina">
+                    <img class="sec-img-new" src="./img/hoodie-argentina-aniversario-negro-frente.webp" alt="hoodie-argentina">
+                </div>
+                <h2>Hoodie Argentina Aniversario</h2>
+                <p>$61.400</p>
+                <a href="https://api.whatsapp.com/send?phone=5493535624254&text=Hola%20SYNC!%20Te%20consulto%20por%20esta%20prenda:%20Hoodie%20Argentina%20Aniversario%20..." target="_blank">Consultar</a>
+            </div>
+            <div class="prod">
+                <div class="img-container">
+                    <img src="./img/hoodie-2000s-blanco.webp" alt="hoodie-2000s">
+                    <img class="sec-img-new" src="./img/hoodie-blanco-espalda-.webp" alt="hoodie-2000s">
+                </div>
+                <h2>Hoodie 2000s Blanco</h2>
+                <p>$57.400</p>
+                <a href="https://api.whatsapp.com/send?phone=5493535624254&text=Hola%20SYNC!%20Te%20consulto%20por%20esta%20prenda:%20Hoodie%202000s%20Blanco%20..." target="_blank">Consultar</a>
+            </div>
+            <div class="prod">
+                <div class="img-container">
+                    <img src="./img/remera-dropkings-blanca-espalda.webp" alt="remera-dropkings-blanca">
+                    <img class="sec-img-new" src="./img/remera-dropkings-blanca-frente.webp" alt="remera-dropkings-blanca">
+                </div>
+                <h2>Remera Back DK Blanca</h2>
+                <p>$28.000</p>
+                <a href="https://api.whatsapp.com/send?phone=5493535624254&text=Hola%20SYNC!%20Te%20consulto%20por%20esta%20prenda:%20Remera%20Back%20DK%20Blanca%20..." target="_blank">Consultar</a>
+            </div>
+            <div class="prod">
+                <div class="img-container">
+                    <img src="./img/hoodie-graff-negro-espalda.webp" alt="hoodie-graff-negro">
+                    <img class="sec-img-new" src="./img/hoodie-graff-negro-frente.webp" alt="hoodie-graff-negro">
+                </div>
+                <h2>Hoodie Graff Negro</h2>
+                <p>$60.000</p>
+                <a href="https://api.whatsapp.com/send?phone=5493535624254&text=Hola%20SYNC!%20Te%20consulto%20por%20esta%20prenda:%20Hoodie%20Graff%20Negro%20..." target="_blank">Consultar</a>
+            </div>
+            <div class="prod">
+                <div class="img-container">
+                    <img src="./img/hoodie-sun-blanco-espalda.webp" alt="hoodie-sun-blanco">
+                    <img class="sec-img-new" src="./img/hoodie-sun-blanco-frente.webp" alt="hoodie-sun-blanco">
+                </div>
+                <h2>Hoodie Sun Blanco</h2>
+                <p>$57.400</p>
+                <a href="https://api.whatsapp.com/send?phone=5493535624254&text=Hola%20SYNC!%20Te%20consulto%20por%20esta%20prenda:%20Hoodie%20Sun%20Blanco%20..." target="_blank">Consultar</a>
+            </div>
+            <div class="prod">
+                <div class="img-container">
+                    <img src="./img/remera-dks-race-blanca-frente.webp" alt="remera-dks-race-blanca">
+                    <img class="sec-img-new" src="./img/remera-essential-blanca-espalda.webp" alt="remera-dks-race-blanca">
+                </div>
+                <h2>Remera CROSS Blanca</h2>
+                <p>$28.000</p>
+                <a href="https://api.whatsapp.com/send?phone=5493535624254&text=Hola%20SYNC!%20Te%20consulto%20por%20esta%20prenda:%20Remera%20CROSS%20Blanca%20..." target="_blank">Consultar</a>
+            </div>
+        </div>
+        <hr>
     </main>
     <footer>
-
+        <img class="logo-footer" src="./img/logo-sync.png" alt="logo-SYNC">
+        <div class="links">
+            <a href="#new-in">New in</a><span>.</span>
+            <a href="./html/productos.html">Productos</a>
+        </div>
+        <div class="cont-redes">
+            <a href="https://www.instagram.com/sync.ind/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5493535624254&text=Hola%20SYNC!%20..." target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <a href="">Created by <span>Bautista Thomann</span></a>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
 
+    <script src="js/script.js"></script>
 </body>
 
 </html>
