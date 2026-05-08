@@ -95,10 +95,12 @@ h1 {
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
+    gap: 3rem;
 }
 
 .cont-productos-new .prod {
-    margin: 1rem 3rem;
+    margin: 1rem 1.5rem;
+    width: 21rem;
 }
 
 .cont-productos-new .prod:hover {
@@ -108,7 +110,7 @@ h1 {
 }
 
 .cont-productos-new .prod img {
-    width: 20rem;
+    width: 100%;
 }
 
 .cont-productos-new .prod h2 {
@@ -154,9 +156,9 @@ h1 {
     will-change: transform;
 }
 
-.img-container {
+.cont-productos-new .img-container {
     position: relative;
-    width: 22rem;
+    width: 21rem;
     overflow: hidden;
 }
 
@@ -403,5 +405,10 @@ footer a span:hover {
 
     .cont-banner img{
         height: 33rem;
+    }
+
+    .container-fluid{
+        padding-right: 1.5rem;
+        padding-left: 0.8rem;
     }
 }
