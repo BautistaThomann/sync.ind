@@ -408,7 +408,42 @@ footer a span:hover {
     }
 
     .container-fluid{
-        padding-right: 1.5rem;
+        padding-right: 1.3rem;
         padding-left: 0.8rem;
     }
+
+    .cont-productos-new{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .cont-productos-new .prod img{
+        width: 13.7rem;
+    }
+
+    .cont-h1 h1{
+        font-size: 1.3rem;
+        margin: 2rem 0 1rem 0;
+    }
+
+    .cont-productos-new .prod{
+        margin: 0;
+        width: 13.7rem;
+    }
+
+    .cont-productos-new .prod h2{
+        font-size: 13px;
+    }
+
+    .cont-productos-new .prod p{
+        font-size: 0.9rem;
+    }
+
+    .cont-productos-new .prod a{
+        font-size: 10px;
+        padding: 3px 8px
+    }
+
 }
