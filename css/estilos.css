@@ -18,7 +18,6 @@ body {
 }
 
 /* navbar */
-
 .logo {
     width: 6.4rem;
 }
@@ -42,7 +41,7 @@ body {
 }
 
 /* texto deslizante */
-.texto-deslizante {
+.texto-deslizante{
     overflow: hidden;
     white-space: nowrap;
     width: 100%;
@@ -51,16 +50,18 @@ body {
     padding: 9px 0;
 }
 
-.texto-track {
-    display: inline-flex;
+.texto-track{
+    display: flex;
+    width: max-content;
     gap: 50px;
     animation: scroll 20s linear infinite;
 }
 
-.texto-track p {
+.texto-track p{
     margin: 0;
     font-weight: bold;
     font-size: 14px;
+    flex-shrink: 0;
 }
 
 /* Animación */
@@ -391,7 +392,7 @@ footer a span:hover {
     }
 
     .texto-deslizante{
-        padding: 2px 0;
+        padding: 6px 0;
         padding-bottom: 4px;
     }
 
@@ -445,5 +446,4 @@ footer a span:hover {
         font-size: 10px;
         padding: 3px 8px
     }
-
 }
