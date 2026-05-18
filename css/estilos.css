@@ -44,35 +44,44 @@ body {
 /* texto deslizante */
 .texto-deslizante{
     overflow: hidden;
-    white-space: nowrap;
     width: 100%;
     background: #050606;
     color: white;
     padding: 9px 0;
+    position: relative;
 }
 
 .texto-track{
     display: flex;
-    width: max-content;
     gap: 50px;
+    width: fit-content;
+
     animation: scroll 20s linear infinite;
+
+    will-change: transform;
+    transform: translate3d(0,0,0);
+
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+
+    -webkit-transform: translate3d(0,0,0);
 }
 
 .texto-track p{
     margin: 0;
     font-weight: bold;
     font-size: 14px;
+    white-space: nowrap;
     flex-shrink: 0;
 }
 
-/* Animación */
-@keyframes scroll {
-    from {
-        transform: translateX(0);
+@keyframes scroll{
+    from{
+        transform: translate3d(0,0,0);
     }
 
-    to {
-        transform: translateX(-50%);
+    to{
+        transform: translate3d(-50%,0,0);
     }
 }
 
@@ -119,6 +128,13 @@ h1 {
     font-size: 18px;
     margin-top: 0.7rem;
     font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.cont-productos-new .prod .talle{
+    font-size: 14px;
+    margin-bottom: 0.7rem;
+    font-weight: 480;
 }
 
 .cont-productos-new .prod p {
