@@ -447,4 +447,59 @@ footer a span:hover {
         font-size: 10px;
         padding: 3px 8px
     }
+
+    .cont-productos-new .prod{
+        width: 10.8rem;
+    }
+
+    .cont-productos-new .img-container{
+        width: 100%;
+    }
+
+    .cont-productos-new .img-container img{
+        width: 100%;
+    }
+
+    .main-productos .cont-productos{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .main-productos .cont-productos .prod{
+        margin: 0;
+        width: 10.8rem;
+    }
+
+    .main-productos .img-container{
+        width: 100%;
+    }
+
+    .main-productos .img-container img{
+        width: 100%;
+        display: block;
+    }
+
+    .main-productos .cont-productos .prod h2{
+        font-size: 13px;
+    }
+
+    .main-productos .cont-productos .prod p{
+        font-size: 0.9rem;
+    }
+
+    .main-productos .cont-productos .prod a{
+        font-size: 10px;
+        padding: 3px 8px;
+    }
+
+    .main-productos .cont-productos .prod img {
+        width: 100%;
+    }
+
+    .main-productos h1{
+        font-size: 1.3rem;
+        margin: 2.5rem 0 1.5rem 0;
+    }
 }
